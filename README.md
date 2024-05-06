@@ -1,6 +1,9 @@
 # 👕🤓👍🏽 Loja de Brindes Benezinho's
 
-
+### TRIO
+## GABRIEL AMANCIO - 97936
+## PEDRO PACHECO - 98043
+## TOMAZ PECORARO - 98499
 
 CP II - **Java Advanced** aplicado em 03/05/2024.
 

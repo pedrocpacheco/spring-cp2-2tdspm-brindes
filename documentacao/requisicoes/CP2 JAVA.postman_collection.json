@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "c345bfdd-ba99-4281-90aa-ea0de3aa9f8a",
+		"name": "CP2 JAVA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "26666525"
+	},
+	"item": [
+		{
+			"name": "CATEGORIA",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"nome\": \"Nome da Categoria\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/categorias"
+			},
+			"response": []
+		},
+		{
+			"name": "CATEGORIAS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/categorias"
+			},
+			"response": []
+		},
+		{
+			"name": "CATEGORIA ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/categorias/1"
+			},
+			"response": []
+		},
+		{
+			"name": "LOJA",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"nome\": \"Nome da Loja\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/lojas"
+			},
+			"response": []
+		},
+		{
+			"name": "LOJAS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/lojas"
+			},
+			"response": []
+		},
+		{
+			"name": "LOJA ID Copy",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "PRODUTO",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"nome\": \"Nome da Loja\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/lojas"
+			},
+			"response": []
+		},
+		{
+			"name": "PRODUTOS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/produtos"
+			},
+			"response": []
+		},
+		{
+			"name": "PRODUTO ID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
